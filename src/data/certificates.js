@@ -1,0 +1,42 @@
+export const certificates = [
+  {
+    id: '1',
+    title: 'Сертификат соответствия ГОСТ',
+    type: 'quality',
+    description: 'Подтверждение соответствия муки пшеничной высшего сорта ГОСТ 26574-2017',
+    date: '2024',
+    file: '/documents/cert-gost.pdf',
+  },
+  {
+    id: '2',
+    title: 'Декларация о соответствии ТР ТС',
+    type: 'quality',
+    description: 'Декларация о соответствии техническому регламенту Таможенного союза',
+    date: '2024',
+    file: '/documents/declaration.pdf',
+  },
+  {
+    id: '3',
+    title: 'Сертификат системы менеджмента качества',
+    type: 'iso',
+    description: 'ISO 9001:2015 — система менеджмента качества',
+    date: '2023',
+    file: '/documents/iso9001.pdf',
+  },
+  {
+    id: '4',
+    title: 'Сертификат ХАССП',
+    type: 'safety',
+    description: 'Система анализа опасностей и критических контрольных точек',
+    date: '2024',
+    file: '/documents/haccp.pdf',
+  },
+  {
+    id: '5',
+    title: 'Лицензия на производство',
+    type: 'license',
+    description: 'Лицензия на осуществление деятельности по производству мукомольной продукции',
+    date: '2020',
+    file: '/documents/license.pdf',
+  },
+]
